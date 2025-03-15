@@ -44,4 +44,5 @@
       "import": "./dist/ultra-ui.es.js", 
       "require": "./dist/ultra-ui.umd.js" 
 		}
+  }
 }
