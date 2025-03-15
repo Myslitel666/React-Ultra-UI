@@ -39,6 +39,10 @@
     "typescript-eslint": "^8.24.1",
     "vite": "^6.2.0"
   },
+  "repository": {
+		"type": "git",
+		"url": "git+https://github.com/Myslitel666/ultra-ui.git"
+	},
   "exports": {
 		".": {
       "import": "./dist/ultra-ui.es.js", 
