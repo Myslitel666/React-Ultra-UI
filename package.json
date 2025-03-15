@@ -47,6 +47,10 @@
     ".": {
       "import": "./dist/ultra-ui.es.js",
       "require": "./dist/ultra-ui.umd.js"
-    }
+    },
+    "./App2": {
+			"types": "./dist/App2.svelte.d.ts",
+			"react": "./dist/App2.tsx"
+		}
   }
 }
