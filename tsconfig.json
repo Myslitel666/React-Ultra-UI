@@ -1,4 +1,16 @@
 {
+  "compilerOptions": {
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,              // Генерация деклараций типов
+    "outDir": "./dist",               // Папка для скомпилированных файлов
+    "moduleResolution": "node",       // Для работы с модулями
+    "esModuleInterop": true,          // Для совместимости с ES модулями
+    "jsx": "react",                   // Если вы работаете с React
+    "strict": true,                    // Включение строгой типизации
+    "allowJs": true      // Разрешить компиляцию JavaScript файлов
+  },
+  "include": ["src/lib/**/*.{js,jsx,ts,tsx}"],
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },

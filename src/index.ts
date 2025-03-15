@@ -1,0 +1,1 @@
+export { default as App2 } from './lib/App2.js';
