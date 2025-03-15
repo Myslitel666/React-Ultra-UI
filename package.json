@@ -2,7 +2,7 @@
   "name": "react-ultra-ui",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "scripts": {
     "clean": "rimraf dist",
@@ -40,13 +40,13 @@
     "vite": "^6.2.0"
   },
   "repository": {
-		"type": "git",
-		"url": "git+https://github.com/Myslitel666/ultra-ui.git"
-	},
+    "type": "git",
+    "url": "git+https://github.com/Myslitel666/ultra-ui.git"
+  },
   "exports": {
-		".": {
-      "import": "./dist/ultra-ui.es.js", 
-      "require": "./dist/ultra-ui.umd.js" 
-		}
+    ".": {
+      "import": "./dist/ultra-ui.es.js",
+      "require": "./dist/ultra-ui.umd.js"
+    }
   }
 }
