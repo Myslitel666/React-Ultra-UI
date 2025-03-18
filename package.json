@@ -13,9 +13,9 @@
       "import": "./dist/index.es.js"
     },
     "./TextField": {
-      "types": "./dist/TextField.d.ts",
-      "require": "./dist/TextField.cjs.js",
-      "import": "./dist/TextField.es.js"
+      "types": "./dist/components/TextField.d.ts",
+      "require": "./dist/components/TextField.cjs.js",
+      "import": "./dist/components/TextField.es.js"
     }
   },
   "files": [
