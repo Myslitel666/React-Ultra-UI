@@ -1,12 +1,14 @@
 {
   "name": "react-ultra-ui",
   "private": false,
-  "version": "0.1.5",
+  "version": "0.1.6",
   "type": "module",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "dev": "vite dev --open",
     "build": "tsc -b && vite build",
