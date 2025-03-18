@@ -7,6 +7,16 @@
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
   "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.es.js"
+    },
+    "./Hello": {
+      "types": "./dist/Hello.d.ts",
+      "require": "./dist/Hello.cjs.js",
+      "import": "./dist/Hello.es.js"
+    },
     "import": "./dist/index.js",
     "require": "./dist/index.cjs",
     "types": "./dist/index.d.ts"
