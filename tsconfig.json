@@ -1,16 +1,12 @@
 {
   "compilerOptions": {
-    "lib": ["ES2022", "DOM", "DOM.Iterable"], 
-    "target": "ES2022",
-    "module": "ESNext",
-    "jsx": "react-jsx", 
-    "declaration": true,
-    "emitDeclarationOnly": false,
-    "outDir": "dist",
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "allowImportingTsExtensions": true,
-    "noEmit": true
+  "lib": ["ES2022", "DOM", "DOM.Iterable"],
+  "jsx": "react-jsx",
+  "outDir": "dist",
+  "moduleResolution": "node",
+  "esModuleInterop": true,
+  "allowImportingTsExtensions": true,
+  "noEmit": true
   },
   "include": ["src"]
-}
+  }
