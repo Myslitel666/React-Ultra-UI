@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react(), dts()],
   build: {
     lib: {
-      entry: 'src/index.ts', // Точка входа в библиотеку
+      entry: 'src/lib/index.ts', // Точка входа в библиотеку
       name: 'MyLib', // Глобальное имя для UMD (если понадобится)
       formats: ['es', 'cjs'], // Собираем ESM и CJS
       fileName: (format) => `index.${format}.js`,
