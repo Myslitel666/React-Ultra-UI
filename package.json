@@ -12,10 +12,10 @@
       "require": "./dist/index.cjs",
       "import": "./dist/index.es.js"
     },
-    "./Hello": {
-      "types": "./dist/Hello.d.ts",
-      "require": "./dist/Hello.cjs.js",
-      "import": "./dist/Hello.es.js"
+    "./TextField": {
+      "types": "./dist/TextField.d.ts",
+      "require": "./dist/TextField.cjs.js",
+      "import": "./dist/TextField.es.js"
     }
   },
   "files": [
