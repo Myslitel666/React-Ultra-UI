@@ -11,8 +11,8 @@
     "moduleResolution": "bundler",
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true, // Убедись, что эта опция включена
-    "allowImportingTsExtensions": true, // Теперь это допустимо, когда noEmit: true
+    "noEmit": false, // Убедись, что эта опция включена
+    "emitDeclarationOnly": false,
     "jsx": "react-jsx",
 
     /* Linting */

@@ -8,10 +8,10 @@
 
     /* Bundler mode */
     "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
     "isolatedModules": true,
     "moduleDetection": "force",
-    "noEmit": true, // Это нормально для этого файла
+    "noEmit": false, // Это нормально для этого файла
+    "emitDeclarationOnly": false,
     "jsx": "react-jsx",
 
     /* Linting */
